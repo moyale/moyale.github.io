@@ -11,28 +11,7 @@
   </head>
 
   <body>
-
-    <header>
-      <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-
-
-      </div>
-    </header>
    {% include navigation.html %}
-    <div class="container">
-      <section id="main_content">
         {{ content }}
-      </section>
-    </div>
-    <div>
-    <footer>
-              <section >
-         <a href="https://twitter.com/hamzambo" target="_blank" class="btn btn-github"><span class="icon"></span>Follow on Twitter</a>
-        </section>
-      </footer>
   </body>
 </html>
