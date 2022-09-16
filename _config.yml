@@ -17,10 +17,8 @@ defaults:
       path: ""
     values:
       layout: "default"
-  - scope:
-      path: "skyline"
-    values:
-      layout: "skyline"
+
+
       
 
 title: The Daars
